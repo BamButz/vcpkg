@@ -1,0 +1,17 @@
+{
+  "name": "liboai",
+  "version-string": "3.2.1",
+  "description": "A C++17 library to access the entire OpenAI API.",
+  "dependencies": [
+	  "curl",
+	  "nlohmann-json",
+	  {
+		"name": "vcpkg-cmake",
+		"host": true
+	  },
+	  {
+		  "name": "vcpkg-cmake-config",
+		  "host": true
+		}
+  ]
+}
